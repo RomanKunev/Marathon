@@ -1,0 +1,883 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Oswald:wght@200..700&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@400;500;600&family=Rubik+Wet+Paint&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-color: none;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+body {
+  background-color: rgb(215, 214, 215);
+}
+
+h2 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.302vw;
+  color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 98vw;
+  height: 50vw;
+}
+
+.header_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.menu_item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu_item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu_item3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.from-page_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10%;
+  gap: 20px;
+}
+
+.header_from-page {
+  background-color: rgb(215, 214, 215);
+  height: 100%;
+  z-index: 1;
+  width: 78vw;
+  height: 50vw;
+}
+
+.from-page_title {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 5vw;
+  color: red;
+}
+
+.from-page_intro {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.083vw;
+  color: red;
+}
+
+.from-page_description {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.823vw;
+  text-align: center;
+  color: red;
+}
+
+.from-page_button {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.btn {
+  width: 15.625vw;
+  height: 4.688vw;
+  background-color: red;
+  border-radius: 55px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.344vw;
+  color: white;
+}
+
+.about_btn {
+  width: 500px;
+  height: 100px;
+  background-color: red;
+  border-radius: 55px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.615vw;
+  color: white;
+}
+
+.programm_btn {
+  width: 500px;
+  height: 100px;
+  background-color: red;
+  border-radius: 55px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.615vw;
+  color: white;
+}
+
+.button_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button_intro {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.563vw;
+  color: red;
+}
+
+.bonus_images {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.bonus_img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.header_img {
+  width: 49vw;
+  height: 50vw;
+}
+
+.header_images {
+  position: absolute;
+  right: 2vw;
+  z-index: 0;
+  width: 64vw;
+  height: 50vw;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  background-color: white;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.programm_marafon {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  background-color: white;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 30px;
+}
+
+.about_title {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3.125vw;
+  color: red;
+  text-align: center;
+}
+
+.title_programm {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3.125vw;
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title_video {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3.125vw;
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about_title-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.description_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1.302vw;
+  height: auto;
+}
+
+.inner_images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 245px;
+  height: 348px;
+}
+
+.box_title {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.823vw;
+  text-align: center;
+  width: 20vw;
+}
+
+.about_description {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3.125vw;
+  color: red;
+  padding: 30px;
+  text-align: start;
+}
+
+.about_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.programm_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.programm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.programm_external {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reviews_box {
+  margin-bottom: 50px;
+  padding-top: 15px;
+}
+
+.trainer_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 45vh;
+}
+
+.programm_marafon-page {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.workaut_title {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.563vw;
+  color: red;
+  list-style-type: disc;
+}
+
+li {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.406vw;
+  color: red;
+  list-style-type: disc;
+}
+
+.conditions {
+  margin-top: 20px;
+  width: 750px;
+}
+
+.conditions_external {
+  margin-left: 50px;
+  width: 750px;
+}
+
+.conditions_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.conditions_title {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.198vw;
+  color: red;
+}
+
+.icon {
+  height: 4em;
+  width: auto;
+  vertical-align: middle;
+}
+
+.programm_images {
+  width: 85vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.trainer_images_box {
+  width: 59vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.external_images {
+  width: 95vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.marafon_images {
+  width: 50vw;
+  height: 40vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.marafon_images_external {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.trainer_images {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.result_gurl {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 7vw;
+  width: 100vw;
+}
+
+.result_images {
+  width: 59vh;
+}
+
+.reviews_phone {
+  width: 18vw;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.conditions_list_number {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 4.167vw;
+  color: red;
+}
+
+.conditions_title_inner {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1em;
+  font-size: 2.083vw;
+  color: red;
+}
+
+.conditions_item_external {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.programm_left-page {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 35px;
+  width: 45vw;
+}
+
+.trainer_left-page {
+  margin-left: 105px;
+}
+
+.box_trainer_inner ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.box_trainer_inner ul li {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.083vw;
+  color: red;
+}
+
+.trainer_subtext {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.083vw;
+  color: red;
+}
+
+.review_left_box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  width: 60%;
+  gap: 20px;
+  padding-left: 100px;
+}
+
+.box_reviews_inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.reviews_images {
+  width: 100%;
+  height: auto;
+}
+
+.offers_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.offers_inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 2vw;
+}
+
+.offer {
+  width: 40%;
+  height: auto;
+  border: 5px solid red;
+  border-radius: 15px;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.offer_img {
+  width: 100%;
+  height: auto;
+}
+
+.box_video {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 30px;
+  border: 5px solid red;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: white;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.box_video-inner {
+  width: 20%;
+  height: auto;
+  border: 2px solid red;
+  border-radius: 15px;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.text_box_video {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+}
+
+.descriptions_video {
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.302vw;
+  color: red;
+}
+
+.submit_video {
+  width: 75%;
+  height: auto;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.302vw;
+  color: red;
+}
+
+.box_btn_tg {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.btn_tg {
+  width: 300px;
+  height: 80px;
+  background-color: red;
+  border-radius: 50px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.802vw;
+  color: white;
+}
+
+@media (max-width: 1182px) {
+  .header_menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Две равные колонки */
+    grid-template-rows: auto auto; /* Две строки */
+  }
+  .menu_item1 {
+    grid-column: 1; /* Первый блок в первом столбце */
+    grid-row: 1; /* Первый блок в первой строке */
+  }
+  .menu_item2 {
+    grid-column: 2; /* Второй блок во втором столбце */
+    grid-row: 1; /* Второй блок в первой строке */
+  }
+  .menu_item3 {
+    grid-column: 1/span 2; /* Блок занимает оба столбца */
+    grid-row: 2; /* Блок находится во второй строке */
+    justify-self: center; /* Центрирование по горизонтали */
+  }
+}
+@media (max-width: 1314px) {
+  .about_title-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    justify-content: space-between;
+    justify-items: center;
+  }
+}
+@media (max-width: 883px) {
+  .header {
+    height: 207vw;
+  }
+  .header_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .header_from-page {
+    width: 1521vw;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 4.502vw;
+  }
+  .header_images {
+    top: 143vw;
+    width: 96vw;
+    height: 72vw;
+  }
+  .from-page_item {
+    padding: 2vw;
+    margin-top: 2%;
+  }
+  .from-page_title {
+    font-size: 14vw;
+  }
+  .from-page_intro {
+    font-size: 4.083vw;
+  }
+  .from-page_button {
+    margin: 5px;
+    padding: 0px;
+    padding-left: 7px;
+  }
+  .from-page_description {
+    font-size: 4.823vw;
+  }
+  .btn {
+    width: 46.625vw;
+    height: 14.688vw;
+    font-size: 7.344vw;
+  }
+  .bonus_img {
+    width: 122%;
+  }
+  .button_intro {
+    font-size: 3.563vw;
+  }
+  .about_title-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: space-between;
+    justify-items: center;
+  }
+  .marafun_img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .box_title {
+    font-size: 3.823vw;
+    width: 37vw;
+  }
+  .about_title {
+    font-size: 6.125vw;
+    margin-top: 5vw;
+  }
+  .about_description {
+    font-size: 5.125vw;
+    text-align: center;
+    padding: 10px;
+  }
+  .title_programm {
+    font-size: 6.125vw;
+  }
+  .programm {
+    flex-direction: column;
+    padding: 0vw;
+  }
+  .title_programm {
+    margin: 0px;
+    font-size: 9vw;
+  }
+  .programm_left-page {
+    margin-left: 0px;
+    width: 80vw;
+  }
+  .programm_marafon-page {
+    padding-left: 3vw;
+  }
+  .programm_marafon-page ul {
+    width: 72 vw;
+  }
+  .programm_marafon-page li {
+    font-size: 4.406vw;
+  }
+  .marafon_images {
+    width: 68vw;
+    height: 84vw;
+  }
+  .programm_button {
+    margin-top: 2vw;
+  }
+  .programm_btn {
+    width: 60vw;
+    height: 23vw;
+    font-weight: 600;
+    font-size: 6.615vw;
+  }
+  .workaut_title {
+    font-size: 4.563vw;
+  }
+  .conditions {
+    width: 80vw;
+  }
+  .conditions_item {
+    width: 80vw;
+  }
+  .conditions_title {
+    font-size: 4.198vw;
+  }
+  .programm_external {
+    flex-direction: column;
+  }
+  .conditions_external {
+    width: 85vw;
+    margin-left: 10vw;
+  }
+  .conditions_list_number {
+    font-size: 9.167vw;
+    font-weight: 600;
+  }
+  .conditions_item_external {
+    gap: 12px;
+  }
+  .conditions_title_inner {
+    font-size: 5.083vw;
+  }
+  .trainer_box {
+    flex-direction: column;
+    gap: 8vw;
+  }
+  .trainer_left-page {
+    margin-left: 8vw;
+  }
+  .trainer_images_box {
+    width: 63vw;
+    text-align: center;
+    margin-left: 17vw;
+  }
+  .trainer_images {
+    width: 80%;
+  }
+  .box_trainer_inner ul li {
+    font-size: 5.083vw;
+  }
+  .trainer_subtext {
+    font-size: 5.083vw;
+  }
+  .review_left_box {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2vw;
+  }
+  .result_gurl {
+    flex-direction: column;
+    width: 100vw;
+    padding: 2vw;
+  }
+  .box_reviews_inner {
+    width: 170%;
+  }
+  .result_images {
+    width: 50vw;
+    height: 125vw;
+    padding: 0vw 20vw 0vw 18vw;
+  }
+  .reviews_phone {
+    width: 66vw;
+  }
+  .box_video {
+    flex-direction: column;
+    padding: 2vw 2vw 2vw 2vw;
+    gap: 27px;
+    width: 90vw;
+    margin-left: 19px;
+  }
+  .box_video-inner {
+    width: 102%;
+  }
+  .title_video {
+    font-size: 5.125vw;
+    margin-top: -14px;
+    margin-bottom: 18px;
+  }
+  .text_box_video {
+    width: 70vw;
+  }
+  .descriptions_video {
+    font-size: 4.8vw;
+    width: 73vw;
+  }
+  .submit_video {
+    font-size: 5.302vw;
+    width: 73vw;
+  }
+  .offers_box {
+    gap: 5vw;
+    margin-bottom: 0px;
+  }
+  .offers_inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 5vw;
+  }
+  .offer {
+    width: 90vw;
+  }
+  .btn_tg {
+    font-size: 8.302vw;
+  }
+  .inner_images {
+    width: 36vw;
+    height: 45vw;
+  }
+}/*# sourceMappingURL=style.css.map */
